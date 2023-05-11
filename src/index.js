@@ -1,13 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./index.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Home from "./components/Home";
+import Vowels from "./components/Vowels";
+import NotFound from "./components/NotFound";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename="/learn-bengali">
+      <Routes>
+        <Route path="/" element={<App />}>
+          <Route index element={<Home />} />
+          <Route path="vowels" element={<Vowels />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

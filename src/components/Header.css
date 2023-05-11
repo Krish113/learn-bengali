@@ -1,0 +1,40 @@
+.title-text {
+  font-family: "Noto Serif Bengali";
+  font-size: 1.7rem;
+  color: #eb1085;
+  font-weight: 600;
+  border: 2px solid #eb1085;
+  border-radius: 1rem;
+  width: 20rem;
+  margin: 1rem auto;
+  padding: 1rem 2rem 1rem 2rem;
+  text-align: center;
+}
+
+.back-button {
+  position: fixed;
+  height: 2rem;
+  width: 2rem;
+  top: 1rem;
+  left: 1rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  z-index: 1;
+}
+
+.back-button:hover {
+  background-color: #ff77c0;
+  border-color: #eb1085;
+  cursor: pointer;
+}
+
+.back-button-img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.back-button-img:hover {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
