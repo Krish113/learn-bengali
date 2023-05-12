@@ -7,6 +7,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./components/Home";
 import Vowels from "./components/Vowels";
+import Consonants from "./components/Consonants";
 import UnderDevelopment from "./components/UnderDevelopment";
 import NotFound from "./components/NotFound";
 
@@ -18,6 +19,7 @@ root.render(
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="vowels" element={<Vowels />} />
+          <Route path="consonants" element={<Consonants />} />
           <Route path="form-word" element={<UnderDevelopment />} />
           <Route path="word-quiz" element={<UnderDevelopment />} />
           <Route path="*" element={<NotFound />} />

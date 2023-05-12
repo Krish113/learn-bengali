@@ -27,7 +27,6 @@ const soundsMap = {
 };
 
 function textClick(event) {
-  console.log(event);
   const sound = soundsMap[event.target.innerText];
   if (sound) {
     const audioToPlay = new Audio(sound);

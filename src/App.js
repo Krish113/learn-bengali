@@ -5,6 +5,7 @@ import { Outlet, useLocation } from "react-router-dom";
 const applicationHeaders = {
   '/': "মজার বাংলা বর্ণমালা",
   '/vowels': "স্বরবর্ণ পরিচয়",
+  '/consonants': "ব্যঞ্জনবর্ণ পরিচয়",
 };
 
 function App() {

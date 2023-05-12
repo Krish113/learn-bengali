@@ -1,0 +1,11 @@
+.click-box-consonants {
+  height: 10rem;
+  width: 80%;
+  margin: 0.5rem auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .click-box-consonants {
+    width: 100%;
+  }
+}
