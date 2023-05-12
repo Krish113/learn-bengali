@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/learn-bengali/static/css/main.edd3e089.css",
-    "main.js": "/learn-bengali/static/js/main.59d25f31.js",
+    "main.css": "/learn-bengali/static/css/main.83b6ca24.css",
+    "main.js": "/learn-bengali/static/js/main.e7208721.js",
     "static/js/787.4fd03f70.chunk.js": "/learn-bengali/static/js/787.4fd03f70.chunk.js",
     "static/media/ee.mp3": "/learn-bengali/static/media/ee.fc9ba909633e413975c8.mp3",
     "static/media/i.mp3": "/learn-bengali/static/media/i.f075eb3d83b8634b2606.mp3",
@@ -16,12 +16,12 @@
     "static/media/aw.mp3": "/learn-bengali/static/media/aw.223db27ddd99ae0c0bba.mp3",
     "index.html": "/learn-bengali/index.html",
     "static/media/left_arrow.svg": "/learn-bengali/static/media/left_arrow.fa554b93349202a3ec0ca3afb81063ae.svg",
-    "main.edd3e089.css.map": "/learn-bengali/static/css/main.edd3e089.css.map",
-    "main.59d25f31.js.map": "/learn-bengali/static/js/main.59d25f31.js.map",
+    "main.83b6ca24.css.map": "/learn-bengali/static/css/main.83b6ca24.css.map",
+    "main.e7208721.js.map": "/learn-bengali/static/js/main.e7208721.js.map",
     "787.4fd03f70.chunk.js.map": "/learn-bengali/static/js/787.4fd03f70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edd3e089.css",
-    "static/js/main.59d25f31.js"
+    "static/css/main.83b6ca24.css",
+    "static/js/main.e7208721.js"
   ]
 }
