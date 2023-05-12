@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/learn-bengali/static/css/main.dc553f33.css",
-    "main.js": "/learn-bengali/static/js/main.4d8cd4d2.js",
+    "main.css": "/learn-bengali/static/css/main.edd3e089.css",
+    "main.js": "/learn-bengali/static/js/main.59d25f31.js",
     "static/js/787.4fd03f70.chunk.js": "/learn-bengali/static/js/787.4fd03f70.chunk.js",
+    "static/media/ee.mp3": "/learn-bengali/static/media/ee.fc9ba909633e413975c8.mp3",
+    "static/media/i.mp3": "/learn-bengali/static/media/i.f075eb3d83b8634b2606.mp3",
+    "static/media/u.mp3": "/learn-bengali/static/media/u.b2f963d05cad963ee51a.mp3",
+    "static/media/oo.mp3": "/learn-bengali/static/media/oo.1135996636a97d7e4701.mp3",
+    "static/media/ri.mp3": "/learn-bengali/static/media/ri.ee9f06c23073417def7e.mp3",
+    "static/media/oi.mp3": "/learn-bengali/static/media/oi.daab14508cf57ee91c56.mp3",
+    "static/media/aa.mp3": "/learn-bengali/static/media/aa.a0199a430fc950b74482.mp3",
+    "static/media/e.mp3": "/learn-bengali/static/media/e.107e844ea6a7ec34236f.mp3",
+    "static/media/o.mp3": "/learn-bengali/static/media/o.0c24ac7d775f5670ef8c.mp3",
+    "static/media/ou.mp3": "/learn-bengali/static/media/ou.039a3413a44c60c17020.mp3",
+    "static/media/aw.mp3": "/learn-bengali/static/media/aw.223db27ddd99ae0c0bba.mp3",
     "index.html": "/learn-bengali/index.html",
     "static/media/left_arrow.svg": "/learn-bengali/static/media/left_arrow.fa554b93349202a3ec0ca3afb81063ae.svg",
-    "main.dc553f33.css.map": "/learn-bengali/static/css/main.dc553f33.css.map",
-    "main.4d8cd4d2.js.map": "/learn-bengali/static/js/main.4d8cd4d2.js.map",
+    "main.edd3e089.css.map": "/learn-bengali/static/css/main.edd3e089.css.map",
+    "main.59d25f31.js.map": "/learn-bengali/static/js/main.59d25f31.js.map",
     "787.4fd03f70.chunk.js.map": "/learn-bengali/static/js/787.4fd03f70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc553f33.css",
-    "static/js/main.4d8cd4d2.js"
+    "static/css/main.edd3e089.css",
+    "static/js/main.59d25f31.js"
   ]
 }
