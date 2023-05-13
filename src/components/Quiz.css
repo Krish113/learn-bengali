@@ -1,0 +1,83 @@
+.click-box-question {
+  color: #000045;
+  border: 2px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  height: 20rem;
+  width: auto;
+  margin: 0.5rem auto;
+  text-align: center;
+  position: relative;
+}
+
+.click-box-question-image {
+  height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.click-box-option {
+  height: 6rem;
+  width: 100%;
+  margin: 0.5rem auto;
+  position: relative;
+}
+
+.click-box-option-text {
+  font-family: "Noto Serif Bengali";
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.click-box-button-container {
+  text-align: center;
+}
+
+.click-box-button {
+  border: 2px solid white;
+  border-radius: 1.2rem;
+  color: white;
+  text-align: center;
+  padding: 0.3rem 0.8rem;
+  margin: 2rem auto;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-family: Noto Serif Bengali;
+  font-weight: 500;
+}
+
+.click-box-button_green {
+  background-color: #4CAF50;
+}
+
+.click-box-button_green:hover {
+  background-color: #cdffc7;
+  border: 2px solid #01823f;
+  color: black;
+}
+
+.click-box-button_orange {
+  background-color: #ff6a00;
+}
+
+.click-box-button_orange:hover {
+  background-color: #ffc6a5;
+  border: 2px solid #ff6a00;
+  color: black;
+}
+
+
+@media only screen and (max-width: 991px) {
+  
+}

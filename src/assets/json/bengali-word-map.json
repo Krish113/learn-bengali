@@ -1,0 +1,416 @@
+{
+  "categories": [
+    {
+      "display": "--- সব ---",
+      "value": "All"
+    },
+    {
+      "display": "ফল",
+      "value": "Fruit"
+    },
+    {
+      "display": "পশুপাখি",
+      "value": "Animal"
+    },
+    {
+      "display": "খাবার",
+      "value": "Food"
+    },
+    {
+      "display": "শাকসবজি",
+      "value": "Vegetable"
+    },
+    {
+      "display": "শরীর",
+      "value": "Body"
+    }
+  ],
+  "wordTypes": [
+    {
+      "display": "--- সব ---",
+      "value": "All"
+    },
+    {
+      "display": "অ-কার",
+      "value": "aw-kar"
+    },
+    {
+      "display": "আ-কার",
+      "value": "aa-kar"
+    },
+    {
+      "display": "ই-কার",
+      "value": "i-kar"
+    },
+    {
+      "display": "ঈ-কার",
+      "value": "ee-kar"
+    },
+    {
+      "display": "উ-কার",
+      "value": "u-kar"
+    },
+    {
+      "display": "ঊ-কার",
+      "value": "oo-kar"
+    },
+    {
+      "display": "ঋ-কার",
+      "value": "e-kar"
+    },
+    {
+      "display": "এ-কার",
+      "value": "oi-kar"
+    },
+    {
+      "display": "ঐ-কার",
+      "value": "o-kar"
+    },
+    {
+      "display": "ও-কার",
+      "value": "ou-kar"
+    },
+    {
+      "display": "ঔ-কার",
+      "value": "ou-kar"
+    }
+  ],
+  "words": [
+    {
+      "text": "আম",
+      "image": "https://cdn.pixabay.com/photo/2012/04/26/19/36/mango-42898_640.png",
+      "sound": "https://flashcardo.com/audio/17/c_1382.mp3",
+      "category": "Fruit",
+      "wordType": "aw-kar"
+    },
+    {
+      "text": "ডিম",
+      "image": "https://cdn.pixabay.com/photo/2013/07/13/10/26/egg-157224_640.png",
+      "sound": "https://flashcardo.com/audio/17/c_1289.mp3",
+      "category": "Food",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "পনির",
+      "image": "https://cdn.pixabay.com/photo/2018/05/01/18/33/food-3366471_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1282.mp3",
+      "category": "Food",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "দুধ",
+      "image": "https://cdn.pixabay.com/photo/2016/08/11/23/25/glass-1587258_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1281.mp3",
+      "category": "Food",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "মাছ",
+      "image": "https://cdn.pixabay.com/photo/2016/12/31/21/22/discus-fish-1943755_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_3780.mp3",
+      "category": "Animal",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "মাংস",
+      "image": "https://cdn.pixabay.com/photo/2016/03/05/23/02/barbecue-1239434_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_3779.mp3",
+      "category": "Food",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "হাড়",
+      "image": "https://cdn.pixabay.com/photo/2016/09/30/09/52/x-ray-1704855_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1322.mp3",
+      "category": "Food",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "তেল",
+      "image": "https://cdn.pixabay.com/photo/2015/10/02/15/59/olive-oil-968657_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_3795.mp3",
+      "category": "Food",
+      "wordType": "e-kar"
+    },
+    {
+      "text": "পাউরুটি",
+      "image": "https://cdn.pixabay.com/photo/2015/12/05/11/04/bread-1077984_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1433.mp3",
+      "category": "Food",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "চিনি",
+      "image": "https://cdn.pixabay.com/photo/2016/07/13/11/52/sugar-1514247_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1424.mp3",
+      "category": "Food",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "চা",
+      "image": "https://cdn.pixabay.com/photo/2013/07/12/18/21/tea-153336_640.png",
+      "sound": "https://flashcardo.com/audio/17/c_1496.mp3",
+      "category": "Food",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "মাখন",
+      "image": "https://cdn.pixabay.com/photo/2018/05/18/12/55/butter-3411126_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1284.mp3",
+      "category": "Food",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "দই",
+      "image": "https://cdn.pixabay.com/photo/2016/06/07/17/15/yogurt-1442034_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1283.mp3",
+      "category": "Food",
+      "wordType": "aw-kar"
+    },
+    {
+      "text": "রসুন",
+      "image": "https://cdn.pixabay.com/photo/2017/02/25/13/24/garlic-2097759_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1352.mp3",
+      "category": "Vegetable",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "আদা",
+      "image": "https://cdn.pixabay.com/photo/2020/04/29/12/35/ginger-5108742_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1349.mp3",
+      "category": "Vegetable",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "বেগুন",
+      "image": "https://cdn.pixabay.com/photo/2013/03/02/01/25/aubergine-89044_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1348.mp3",
+      "category": "Vegetable",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "গাজর",
+      "image": "https://cdn.pixabay.com/photo/2015/03/14/14/00/carrots-673184_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1345.mp3",
+      "category": "Vegetable",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "শসা",
+      "image": "https://cdn.pixabay.com/photo/2013/02/06/20/43/cucumber-78789_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1343.mp3",
+      "category": "Vegetable",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "পেঁয়াজ",
+      "image": "https://cdn.pixabay.com/photo/2013/02/21/19/14/onion-bulbs-84722__4_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1339.mp3",
+      "category": "Vegetable",
+      "wordType": "e-kar"
+    },
+    {
+      "text": "আলু",
+      "image": "https://cdn.pixabay.com/photo/2016/08/11/08/43/potatoes-1585060_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1338.mp3",
+      "category": "Vegetable",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "ফুলকপি",
+      "image": "https://cdn.pixabay.com/photo/2015/09/25/16/51/cabbage-957778_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1337.mp3",
+      "category": "Vegetable",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "বাঁধাকপি",
+      "image": "https://cdn.pixabay.com/photo/2018/10/03/21/57/cabbage-3722498_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1335.mp3",
+      "category": "Vegetable",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "পালং শাক",
+      "image": "https://cdn.pixabay.com/photo/2018/09/27/22/37/spinach-3708115_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1331.mp3",
+      "category": "Vegetable",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "বাঁশ",
+      "image": "https://cdn.pixabay.com/photo/2017/12/19/21/08/bamboo-3028709_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1328.mp3",
+      "category": "Tree",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "মটরশুঁটি",
+      "image": "https://cdn.pixabay.com/photo/2010/12/13/10/20/peas-2686_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1324.mp3",
+      "category": "Vegetable",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "নাশপাতি",
+      "image": "https://cdn.pixabay.com/photo/2015/05/07/12/17/pear-756388_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_3785.mp3",
+      "category": "Fruit",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "আপেল",
+      "image": "https://cdn.pixabay.com/photo/2017/09/26/13/42/apple-2788662_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_3784.mp3",
+      "category": "Fruit",
+      "wordType": "e-kar"
+    },
+    {
+      "text": "জলপাই",
+      "image": "https://cdn.pixabay.com/photo/2014/10/04/17/48/olives-473793_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1394.mp3",
+      "category": "Fruit",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "খেজুর",
+      "image": "https://cdn.pixabay.com/photo/2021/09/19/19/18/dates-6638825_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1391.mp3",
+      "category": "Fruit",
+      "wordType": "e-kar"
+    },
+    {
+      "text": "নারকেল",
+      "image": "https://cdn.pixabay.com/photo/2010/12/10/08/coconut-1125_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1390.mp3",
+      "category": "Fruit",
+      "wordType": "e-kar"
+    },
+    {
+      "text": "কলা",
+      "image": "https://cdn.pixabay.com/photo/2015/02/27/17/58/bananas-652497_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1383.mp3",
+      "category": "Fruit",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "আনারস",
+      "image": "https://cdn.pixabay.com/photo/2016/03/05/21/50/fresh-1239116_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1377.mp3",
+      "category": "Fruit",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "তরমুজ",
+      "image": "https://cdn.pixabay.com/photo/2015/06/19/16/48/watermelon-815072_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1376.mp3",
+      "category": "Fruit",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "আঙুর",
+      "image": "https://cdn.pixabay.com/photo/2017/08/18/19/48/grapes-2656259_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1375.mp3",
+      "category": "Fruit",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "লেবু",
+      "image": "https://cdn.pixabay.com/photo/2020/07/24/21/58/lemon-5435158_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1361.mp3",
+      "category": "Fruit",
+      "wordType": "e-kar"
+    },
+    {
+      "text": "কমলা",
+      "image": "https://cdn.pixabay.com/photo/2016/10/07/13/36/tangerines-1721590_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1358.mp3",
+      "category": "Color",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "টমেটো",
+      "image": "https://cdn.pixabay.com/photo/2016/08/01/17/08/tomatoes-1561565_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1347.mp3",
+      "category": "Vegetable",
+      "wordType": "o-kar"
+    },
+    {
+      "text": "দারুচিনি",
+      "image": "https://cdn.pixabay.com/photo/2013/03/11/16/08/cinnamon-92594_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1405.mp3",
+      "category": "Food",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "লবণ",
+      "image": "https://cdn.pixabay.com/photo/2021/05/11/07/00/salt-6245098_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1401.mp3",
+      "category": "Food",
+      "wordType": "aw-kar"
+    },
+    {
+      "text": "তরকারি",
+      "image": "https://cdn.pixabay.com/photo/2016/10/13/05/16/thai-curry-1736806_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1399.mp3",
+      "category": "Food",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "ময়দা",
+      "image": "https://cdn.pixabay.com/photo/2015/05/31/13/43/flour-791840_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1429.mp3",
+      "category": "Food",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "চাল",
+      "image": "https://cdn.pixabay.com/photo/2017/02/13/05/44/rice-2061877_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1421.mp3",
+      "category": "Food",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "গম",
+      "image": "https://cdn.pixabay.com/photo/2014/07/02/06/47/wheat-381848_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1419.mp3",
+      "category": "Food",
+      "wordType": "aw-kar"
+    },
+    {
+      "text": "বাদাম",
+      "image": "https://cdn.pixabay.com/photo/2015/02/05/05/58/food-624600_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1462.mp3",
+      "category": "Food",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "মধু",
+      "image": "https://cdn.pixabay.com/photo/2015/10/26/11/10/honey-1006972_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1448.mp3",
+      "category": "Food",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "সরিষা",
+      "image": "https://cdn.pixabay.com/photo/2020/04/01/06/56/food-4990187_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_1551.mp3",
+      "category": "Food",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "মাথা",
+      "image": "https://cdn.pixabay.com/photo/2016/09/01/19/07/boy-1637188_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_621.mp3",
+      "category": "Body",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "নাক",
+      "image": "https://cdn.pixabay.com/photo/2016/03/31/15/27/alphabet-word-images-1293293_640.png",
+      "sound": "https://flashcardo.com/audio/17/c_645.mp3",
+      "category": "Body",
+      "wordType": "aa-kar"
+    }
+  ]
+}
