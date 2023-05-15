@@ -56,19 +56,19 @@
     },
     {
       "display": "ঋ-কার",
-      "value": "e-kar"
+      "value": "ri-kar"
     },
     {
       "display": "এ-কার",
-      "value": "oi-kar"
+      "value": "e-kar"
     },
     {
       "display": "ঐ-কার",
-      "value": "o-kar"
+      "value": "oi-kar"
     },
     {
       "display": "ও-কার",
-      "value": "ou-kar"
+      "value": "o-kar"
     },
     {
       "display": "ঔ-কার",
@@ -204,7 +204,7 @@
     },
     {
       "text": "পেঁয়াজ",
-      "image": "https://cdn.pixabay.com/photo/2013/02/21/19/14/onion-bulbs-84722__4_640.jpg",
+      "image": "https://cdn.pixabay.com/photo/2013/02/21/19/14/onion-bulbs-84722_640.jpg",
       "sound": "https://flashcardo.com/audio/17/c_1339.mp3",
       "category": "Vegetable",
       "wordType": "e-kar"
