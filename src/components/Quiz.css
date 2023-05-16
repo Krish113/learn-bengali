@@ -86,22 +86,32 @@
 
 .filter-container {
   text-align: center;
+  padding: 0 0 0 0.5rem;
 }
 
 .dropdown-label {
+  display: block;
+  color: #0d6efd;
   float: left;
   font-family: "Noto Serif Bengali";
-  line-height: 3.1rem;
+  line-height: 2.71rem;
   font-size: 1.2rem;
+  width: 3.5rem;
 }
 
 .dropdown-filter {
+  width: 100%;
   font-size: 1.8rem;
   font-family: "Noto Serif Bengali";
 }
 
 .dropdown-option {
   font-family: "Noto Serif Bengali";
+}
+
+.dropdown-toggle {
+  width: 72%;
+  padding: 0.2rem 0.5rem;
 }
 
 @media only screen and (max-width: 500px) {
@@ -121,6 +131,27 @@
     padding: 0.2rem 0.6rem;
     margin: 0.1rem auto;
     font-size: 1.2rem;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .filter-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 245px) {
+  .dropdown-toggle {
+    width: 65%;
+    padding: 0.2rem 0.5rem;
+  }
+  .click-box-button {
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.4rem;
+    margin: 0.1rem auto;
+    font-size: 1rem;
     font-weight: 400;
   }
 }

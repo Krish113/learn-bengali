@@ -126,7 +126,7 @@ function Quiz() {
     <>
       <Container fluid className="home-container">
         <Row className="justify-content-md-center">
-          <Col className="filter-container" xs={6} sm={6} md={3} lg={2} xl={2}>
+          <Col className="filter-container" xs={6} sm={6} md={4} lg={3} xl={2}>
             <label htmlFor="dropdown-category" className="dropdown-label">
               বিভাগ:
             </label>
@@ -134,7 +134,7 @@ function Quiz() {
               id="dropdown-category"
               className="dropdown-filter btn-block"
               size="lg"
-              variant="secondary"
+              variant="outline-primary"
               title={category.display}
             >
               {categories.map((categoryItem) => (
@@ -149,7 +149,7 @@ function Quiz() {
               ))}
             </DropdownButton>
           </Col>
-          <Col className="filter-container" xs={6} sm={6} md={3} lg={2} xl={2}>
+          <Col className="filter-container" xs={6} sm={6} md={4} lg={3} xl={2}>
             <label htmlFor="dropdown-word-type" className="dropdown-label">
               ধরন:
             </label>
@@ -157,7 +157,7 @@ function Quiz() {
               id="dropdown-word-type"
               className="dropdown-filter"
               size="lg"
-              variant="secondary"
+              variant="outline-primary"
               title={wordType.display}
             >
               {wordTypes.map((wordTypeItem) => (
