@@ -104,5 +104,23 @@
   font-family: "Noto Serif Bengali";
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 500px) {
+  .click-box-question-image {
+    width: 95%;
+    height: auto;
+  }
+  .click-box-option {
+    height: 4rem;
+    margin: 0.2rem auto;
+  }
+  .click-box-option-text {
+    font-size: 2rem;
+  }
+  .click-box-button {
+    border-radius: 0.8rem;
+    padding: 0.2rem 0.6rem;
+    margin: 0.1rem auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
 }

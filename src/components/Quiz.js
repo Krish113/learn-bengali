@@ -177,7 +177,7 @@ function Quiz() {
         {quiz && (
           <>
             <Row className="justify-content-md-center">
-              <Col xs={12} sm={12} md={10} lg={8} xl={6}>
+              <Col xs={12} sm={12} md={12} lg={8} xl={8}>
                 <div
                   className="click-box-question"
                   onClick={() => questionClick(quiz.question)}
@@ -199,7 +199,7 @@ function Quiz() {
               </Col>
             </Row>
             <Row className="justify-content-md-center">
-              <Col xs={12} sm={12} md={5} lg={4} xl={3}>
+              <Col xs={12} sm={12} md={6} lg={4} xl={4}>
                 <div
                   className={`click-box click-box-option${
                     selectedOption === 0 && checkIndex !== 0
@@ -219,7 +219,7 @@ function Quiz() {
                   </p>
                 </div>
               </Col>
-              <Col xs={12} sm={12} md={5} lg={4} xl={3}>
+              <Col xs={12} sm={12} md={6} lg={4} xl={4}>
                 <div
                   className={`click-box click-box-option${
                     selectedOption === 1 && checkIndex !== 1
@@ -241,7 +241,7 @@ function Quiz() {
               </Col>
             </Row>
             <Row className="justify-content-md-center">
-              <Col xs={12} sm={12} md={5} lg={4} xl={3}>
+              <Col xs={12} sm={12} md={6} lg={4} xl={4}>
                 <div
                   className={`click-box click-box-option${
                     selectedOption === 2 && checkIndex !== 2
@@ -261,7 +261,7 @@ function Quiz() {
                   </p>
                 </div>
               </Col>
-              <Col xs={12} sm={12} md={5} lg={4} xl={3}>
+              <Col xs={12} sm={12} md={6} lg={4} xl={4}>
                 <div
                   className={`click-box click-box-option${
                     selectedOption === 3 && checkIndex !== 3
@@ -284,7 +284,7 @@ function Quiz() {
             </Row>
             <hr />
             <Row className="justify-content-md-center">
-              <Col xs={6} sm={6} md={5} lg={4} xl={3}>
+              <Col xs={6} sm={6} md={6} lg={4} xl={3}>
                 <div className="click-box-button-container">
                   <button
                     className="click-box-button click-box-button_green"
@@ -294,7 +294,7 @@ function Quiz() {
                   </button>
                 </div>
               </Col>
-              <Col xs={6} sm={6} md={5} lg={4} xl={3}>
+              <Col xs={6} sm={6} md={6} lg={4} xl={3}>
                 <div className="click-box-button-container">
                   <button
                     className="click-box-button click-box-button_orange"
