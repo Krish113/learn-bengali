@@ -1,8 +1,16 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Container, Row, Col, Dropdown, DropdownButton } from "react-bootstrap";
 import _ from "lodash";
 import "./Quiz.css";
 import wordMap from "../assets/json/bengali-word-map.json";
+import loader from "../assets/gifs/loader.gif";
+import clickSound from "../assets/sound-effects/click.mp3";
+import correctSound from "../assets/sound-effects/correct.mp3";
+import incorrectSound from "../assets/sound-effects/incorrect.mp3";
+
+const clickAudio = new Audio(clickSound);
+const correctAudio = new Audio(correctSound);
+const incorrectAudio = new Audio(incorrectSound);
 
 const categories = wordMap.categories;
 
@@ -34,25 +42,37 @@ function generateQuiz(wordList, selectedCategory, selectedWordType) {
     chosenWords[correctAnswerIndex] = quiz.question;
   }
   quiz.options = chosenWords;
+  quiz.answerIndex = correctAnswerIndex;
   return quiz;
 }
 
-const firstQuiz = generateQuiz(wordMap.words, 'All', 'All');
+const firstQuiz = generateQuiz(wordMap.words, "All", "All");
 
-function questionClick(event, question) {
+function questionClick(question) {
   if (question.sound) {
     const audioToPlay = new Audio(question.sound);
     audioToPlay.play();
   }
 }
 
-function optionClick(event) {}
-
 function Quiz() {
   const [category, setCategory] = useState(categories[0]);
   const [wordType, setWordType] = useState(wordTypes[0]);
-
+  const [questionImgLoading, setQuestionImgLoading] = useState(true);
   const [quiz, setQuiz] = useState(firstQuiz);
+  const [selectedOption, setSelectedOption] = useState(null);
+  const [checkIndex, setCheckIndex] = useState(null);
+
+  useEffect(() => {
+    // If quiz is changed new image needs to be loaded
+    setQuestionImgLoading(true);
+    setSelectedOption(null);
+    setCheckIndex(null);
+  }, [quiz]);
+
+  function questionImgLoaded() {
+    setQuestionImgLoading(false);
+  }
 
   function getNextQuestion(wordsList, selectCategory, selectWordType) {
     const nextQuestion = generateQuiz(
@@ -77,6 +97,28 @@ function Quiz() {
           getNextQuestion(wordMap.words, category.value, filterValue.value);
         }
       }
+    }
+  }
+
+  function optionClick(optionIndex) {
+    setSelectedOption(optionIndex);
+    // Reset check index if other option is selected
+    if (optionIndex !== checkIndex) {
+      setCheckIndex(null);
+    }
+    clickAudio.play();
+    if (quiz.options[optionIndex].sound) {
+      const audioToPlay = new Audio(quiz.options[optionIndex].sound);
+      audioToPlay.play();
+    }
+  }
+
+  function checkClick() {
+    setCheckIndex(selectedOption);
+    if (selectedOption === quiz.answerIndex) {
+      correctAudio.play();
+    } else {
+      incorrectAudio.play();
     }
   }
 
@@ -123,9 +165,7 @@ function Quiz() {
                   id={`word-type-${wordTypeItem.value}`}
                   key={`word-type-${wordTypeItem.value}`}
                   className="dropdown-option"
-                  onClick={() =>
-                    updateFilter("WORD_TYPE", wordTypeItem)
-                  }
+                  onClick={() => updateFilter("WORD_TYPE", wordTypeItem)}
                 >
                   {wordTypeItem.display}
                 </Dropdown.Item>
@@ -140,12 +180,20 @@ function Quiz() {
               <Col xs={12} sm={12} md={10} lg={8} xl={6}>
                 <div
                   className="click-box-question"
-                  onClick={(event) => questionClick(event, quiz.question)}
+                  onClick={() => questionClick(quiz.question)}
                 >
+                  {questionImgLoading && (
+                    <img
+                      className="click-box-question-loader"
+                      src={loader}
+                      alt="loading"
+                    />
+                  )}
                   <img
                     className="click-box-question-image"
                     src={quiz.question.image}
                     alt={quiz.question.category}
+                    onLoad={questionImgLoaded}
                   />
                 </div>
               </Col>
@@ -153,8 +201,18 @@ function Quiz() {
             <Row className="justify-content-md-center">
               <Col xs={12} sm={12} md={5} lg={4} xl={3}>
                 <div
-                  className="click-box click-box-option"
-                  onClick={(event) => optionClick(event)}
+                  className={`click-box click-box-option${
+                    selectedOption === 0 && checkIndex !== 0
+                      ? " click-box-selected"
+                      : ""
+                  }${
+                    checkIndex === 0
+                      ? checkIndex === quiz.answerIndex
+                        ? " click-box-correct"
+                        : " click-box-incorrect"
+                      : ""
+                  }`}
+                  onClick={() => optionClick(0)}
                 >
                   <p className="click-box-option-text">
                     {quiz.options[0].text}
@@ -163,8 +221,18 @@ function Quiz() {
               </Col>
               <Col xs={12} sm={12} md={5} lg={4} xl={3}>
                 <div
-                  className="click-box click-box-option"
-                  onClick={(event) => optionClick(event)}
+                  className={`click-box click-box-option${
+                    selectedOption === 1 && checkIndex !== 1
+                      ? " click-box-selected"
+                      : ""
+                  }${
+                    checkIndex === 1
+                      ? checkIndex === quiz.answerIndex
+                        ? " click-box-correct"
+                        : " click-box-incorrect"
+                      : ""
+                  }`}
+                  onClick={() => optionClick(1)}
                 >
                   <p className="click-box-option-text">
                     {quiz.options[1].text}
@@ -175,8 +243,18 @@ function Quiz() {
             <Row className="justify-content-md-center">
               <Col xs={12} sm={12} md={5} lg={4} xl={3}>
                 <div
-                  className="click-box click-box-option"
-                  onClick={(event) => optionClick(event)}
+                  className={`click-box click-box-option${
+                    selectedOption === 2 && checkIndex !== 2
+                      ? " click-box-selected"
+                      : ""
+                  }${
+                    checkIndex === 2
+                      ? checkIndex === quiz.answerIndex
+                        ? " click-box-correct"
+                        : " click-box-incorrect"
+                      : ""
+                  }`}
+                  onClick={() => optionClick(2)}
                 >
                   <p className="click-box-option-text">
                     {quiz.options[2].text}
@@ -185,8 +263,18 @@ function Quiz() {
               </Col>
               <Col xs={12} sm={12} md={5} lg={4} xl={3}>
                 <div
-                  className="click-box click-box-option"
-                  onClick={(event) => optionClick(event)}
+                  className={`click-box click-box-option${
+                    selectedOption === 3 && checkIndex !== 3
+                      ? " click-box-selected"
+                      : ""
+                  }${
+                    checkIndex === 3
+                      ? checkIndex === quiz.answerIndex
+                        ? " click-box-correct"
+                        : " click-box-incorrect"
+                      : ""
+                  }`}
+                  onClick={() => optionClick(3)}
                 >
                   <p className="click-box-option-text">
                     {quiz.options[3].text}
@@ -194,10 +282,14 @@ function Quiz() {
                 </div>
               </Col>
             </Row>
+            <hr />
             <Row className="justify-content-md-center">
               <Col xs={6} sm={6} md={5} lg={4} xl={3}>
                 <div className="click-box-button-container">
-                  <button className="click-box-button click-box-button_green">
+                  <button
+                    className="click-box-button click-box-button_green"
+                    onClick={checkClick}
+                  >
                     যাচাই
                   </button>
                 </div>
@@ -206,7 +298,13 @@ function Quiz() {
                 <div className="click-box-button-container">
                   <button
                     className="click-box-button click-box-button_orange"
-                    onClick={() => getNextQuestion(wordMap.words, category.value, wordType.value)}
+                    onClick={() =>
+                      getNextQuestion(
+                        wordMap.words,
+                        category.value,
+                        wordType.value
+                      )
+                    }
                   >
                     পরের প্রশ্ন
                   </button>

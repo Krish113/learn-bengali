@@ -18,6 +18,48 @@
   color: #9b0856;
 }
 
+.click-box-selected {
+  background-color: #fcedd8;
+  border: 2px solid #c97505;
+  box-shadow: 0.3rem 0.3rem 0.5rem 0.2rem #fcedd8;
+  color: #c16102;
+}
+
+.click-box-selected:hover {
+  background-color: #fcedd8;
+  border: 2px solid #c97505;
+  box-shadow: 0.3rem 0.3rem 0.5rem 0.2rem #fcedd8;
+  color: #c16102;
+}
+
+.click-box-correct {
+  background-color: #50ff5b;
+  border: 2px solid #005530;
+  box-shadow: 0.3rem 0.3rem 0.5rem 0.2rem #d6ffc4;
+  color: #002843;
+}
+
+.click-box-correct:hover {
+  background-color: #50ff5b;
+  border: 2px solid #005530;
+  box-shadow: 0.3rem 0.3rem 0.5rem 0.2rem #d6ffc4;
+  color: #002843;
+}
+
+.click-box-incorrect {
+  background-color: #ff5f54;
+  border: 2px solid #e40431;
+  box-shadow: 0.3rem 0.3rem 0.5rem 0.2rem #ffaf6a;
+  color: #ebebe4;
+}
+
+.click-box-incorrect:hover {
+  background-color: #ff5f54;
+  border: 2px solid #e40431;
+  box-shadow: 0.3rem 0.3rem 0.5rem 0.2rem #ffaf6a;
+  color: #ebebe4;
+}
+
 .click-box-text {
   height: 100%;
   width: 100%;
