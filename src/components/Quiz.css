@@ -91,7 +91,8 @@
 
 .dropdown-label {
   display: block;
-  color: #0d6efd;
+  color: #eb1185;
+  text-align: left;
   float: left;
   font-family: "Noto Serif Bengali";
   line-height: 2.71rem;
@@ -112,6 +113,13 @@
 .dropdown-toggle {
   width: 72%;
   padding: 0.2rem 0.5rem;
+  border-color: #eb1185;
+  color: #eb1185;
+}
+
+.dropdown-toggle:hover {
+  border-color: #eb1185;
+  background-color: #eb1185;
 }
 
 @media only screen and (max-width: 500px) {

@@ -1,0 +1,26 @@
+.under-dev-page {
+  text-align: center;
+}
+
+.under-dev-image {
+  height: 20rem;
+  border-radius: 5rem;
+  margin-top: 3rem;
+}
+
+.under-dev-text {
+  font-size: 5rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .under-dev-image {
+    height: auto;
+    width: 90%;
+    border-radius: 2rem;
+    margin-top: 1rem;
+  }
+
+  .under-dev-text {
+    font-size: 3rem;
+  }
+}
