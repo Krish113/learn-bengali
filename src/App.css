@@ -1,3 +1,12 @@
+.app {
+  position: relative;
+  min-height: 100vh;
+}
+
+.app-content {
+  padding-bottom: 3rem;
+}
+
 .click-box {
   color: #000045;
   background-color: lavender;
