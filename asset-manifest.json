@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/learn-bengali/static/css/main.c9febefb.css",
-    "main.js": "/learn-bengali/static/js/main.48d6134f.js",
+    "main.css": "/learn-bengali/static/css/main.8a8b17da.css",
+    "main.js": "/learn-bengali/static/js/main.2b32fed3.js",
     "static/js/787.4fd03f70.chunk.js": "/learn-bengali/static/js/787.4fd03f70.chunk.js",
+    "static/media/correct.mp3": "/learn-bengali/static/media/correct.b0e01248f2b85b42ec97.mp3",
+    "static/media/incorrect.mp3": "/learn-bengali/static/media/incorrect.ad1dca68227d3c2ed633.mp3",
     "static/media/ee.mp3": "/learn-bengali/static/media/ee.fc9ba909633e413975c8.mp3",
     "static/media/i.mp3": "/learn-bengali/static/media/i.f075eb3d83b8634b2606.mp3",
     "static/media/u.mp3": "/learn-bengali/static/media/u.b2f963d05cad963ee51a.mp3",
@@ -14,14 +16,15 @@
     "static/media/o.mp3": "/learn-bengali/static/media/o.0c24ac7d775f5670ef8c.mp3",
     "static/media/ou.mp3": "/learn-bengali/static/media/ou.039a3413a44c60c17020.mp3",
     "static/media/aw.mp3": "/learn-bengali/static/media/aw.223db27ddd99ae0c0bba.mp3",
+    "static/media/click.mp3": "/learn-bengali/static/media/click.7f139b396a1194e8727a.mp3",
     "index.html": "/learn-bengali/index.html",
     "static/media/left_arrow.svg": "/learn-bengali/static/media/left_arrow.fa554b93349202a3ec0ca3afb81063ae.svg",
-    "main.c9febefb.css.map": "/learn-bengali/static/css/main.c9febefb.css.map",
-    "main.48d6134f.js.map": "/learn-bengali/static/js/main.48d6134f.js.map",
+    "main.8a8b17da.css.map": "/learn-bengali/static/css/main.8a8b17da.css.map",
+    "main.2b32fed3.js.map": "/learn-bengali/static/js/main.2b32fed3.js.map",
     "787.4fd03f70.chunk.js.map": "/learn-bengali/static/js/787.4fd03f70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9febefb.css",
-    "static/js/main.48d6134f.js"
+    "static/css/main.8a8b17da.css",
+    "static/js/main.2b32fed3.js"
   ]
 }
