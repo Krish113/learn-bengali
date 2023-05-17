@@ -1,8 +1,22 @@
-import './NotFound.css';
+import "./NotFound.css";
+import { Link } from "react-router-dom";
 
 function NotFound() {
   return (
-    <div>404 NotFound</div>
+    <div className="page-not-found">
+      <img
+        src="https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_640.jpg"
+        alt="sad cat"
+        className="not-found-image"
+      />
+      <div className="not-found-text">
+        হারিয়ে গেছো?{" "}
+        <Link className="home-link" to="/">
+          বাড়ি
+        </Link>{" "}
+        ফিরে যাও।
+      </div>
+    </div>
   );
 }
 

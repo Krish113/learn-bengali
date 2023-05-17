@@ -1,0 +1,42 @@
+.page-not-found {
+  text-align: center;
+}
+
+.not-found-image {
+  height: 20rem;
+  border-radius: 5rem;
+  margin-top: 3rem;
+}
+
+.not-found-text {
+  margin-top: 2rem;
+  font-family: "Noto Serif Bengali";
+  font-size: 4rem;
+  color: #eb1085;
+}
+
+.home-link {
+  border: 2px solid #eb1085;
+  border-radius: 1rem;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  color: #eb1085;
+}
+
+.home-link:hover {
+  background-color: #eb1085;
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .not-found-image {
+    height: auto;
+    width: 90%;
+    border-radius: 2rem;
+    margin-top: 1rem;
+  }
+
+  .not-found-text {
+    font-size: 3rem;
+  }
+}
