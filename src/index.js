@@ -9,7 +9,7 @@ import Home from "./components/Home";
 import Vowels from "./components/Vowels";
 import Consonants from "./components/Consonants";
 import Quiz from "./components/Quiz";
-import UnderDevelopment from "./components/UnderDevelopment";
+import FormWord from "./components/FormWord";
 import NotFound from "./components/NotFound";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -21,7 +21,7 @@ root.render(
           <Route index element={<Home />} />
           <Route path="vowels" element={<Vowels />} />
           <Route path="consonants" element={<Consonants />} />
-          <Route path="form-word" element={<UnderDevelopment />} />
+          <Route path="form-word" element={<FormWord />} />
           <Route path="word-quiz" element={<Quiz />} />
           <Route path="*" element={<NotFound />} />
         </Route>

@@ -8,7 +8,7 @@ function Footer() {
           Copyright &copy; {new Date().getFullYear()} by&nbsp;
         </span>
         <span className="copyright-name">
-          <a class="mail-link" href="mailto:krishnendu113@gmail.com">
+          <a className="mail-link" href="mailto:krishnendu113@gmail.com">
             Krishnendu Chakraborty
           </a>
           .

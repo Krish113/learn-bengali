@@ -125,7 +125,7 @@ function Quiz() {
   return (
     <>
       <Container fluid className="home-container">
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col className="filter-container" xs={6} sm={6} md={4} lg={3} xl={2}>
             <label htmlFor="dropdown-category" className="dropdown-label">
               বিভাগ:
@@ -176,7 +176,7 @@ function Quiz() {
         <hr />
         {quiz && (
           <>
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-center">
               <Col xs={12} sm={12} md={12} lg={8} xl={8}>
                 <div
                   className="click-box-question"
@@ -198,7 +198,7 @@ function Quiz() {
                 </div>
               </Col>
             </Row>
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-center">
               <Col xs={12} sm={12} md={6} lg={4} xl={4}>
                 <div
                   className={`click-box click-box-option${
@@ -240,7 +240,7 @@ function Quiz() {
                 </div>
               </Col>
             </Row>
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-center">
               <Col xs={12} sm={12} md={6} lg={4} xl={4}>
                 <div
                   className={`click-box click-box-option${
@@ -283,7 +283,7 @@ function Quiz() {
               </Col>
             </Row>
             <hr />
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-center">
               <Col xs={6} sm={6} md={6} lg={4} xl={3}>
                 <div className="click-box-button-container">
                   <button

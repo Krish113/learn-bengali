@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <Container fluid className="home-container">
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={6} lg={4} xl={3}>
             <Link className="link-text" to="vowels">
               <Card className="click-box app-card">

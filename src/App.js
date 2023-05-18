@@ -7,6 +7,7 @@ const applicationHeaders = {
   "/": "মজার বাংলা বর্ণমালা",
   "/vowels": "স্বরবর্ণ পরিচয়",
   "/consonants": "ব্যঞ্জনবর্ণ পরিচয়",
+  "/form-word": "শব্দ গঠন",
   "/word-quiz": "পড়া শেখো",
 };
 

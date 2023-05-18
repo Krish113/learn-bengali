@@ -38,7 +38,7 @@ function Vowels() {
   return (
     <>
       <Container fluid className="home-container">
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={3} lg={3} xl={3}>
             <div
               className="click-box click-box-vowels"
@@ -72,7 +72,7 @@ function Vowels() {
             </div>
           </Col>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={3} lg={3} xl={3}>
             <div
               className="click-box click-box-vowels"
@@ -98,7 +98,7 @@ function Vowels() {
             </div>
           </Col>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={3} lg={3} xl={3}>
             <div
               className="click-box click-box-vowels"

@@ -7,7 +7,7 @@ function Consonants() {
   return (
     <>
       <Container fluid className="home-container">
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={4} lg={2} xl={2}>
             <div
               className="click-box click-box-consonants"
@@ -49,7 +49,7 @@ function Consonants() {
             </div>
           </Col>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={4} lg={2} xl={2}>
             <div
               className="click-box click-box-consonants"
@@ -91,7 +91,7 @@ function Consonants() {
             </div>
           </Col>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={4} lg={2} xl={2}>
             <div
               className="click-box click-box-consonants"
@@ -133,7 +133,7 @@ function Consonants() {
             </div>
           </Col>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={4} lg={2} xl={2}>
             <div
               className="click-box click-box-consonants"
@@ -175,7 +175,7 @@ function Consonants() {
             </div>
           </Col>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={4} lg={2} xl={2}>
             <div
               className="click-box click-box-consonants"
@@ -217,7 +217,7 @@ function Consonants() {
             </div>
           </Col>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={4} lg={2} xl={2}>
             <div
               className="click-box click-box-consonants"
@@ -243,7 +243,7 @@ function Consonants() {
             </div>
           </Col>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={4} lg={2} xl={2}>
             <div
               className="click-box click-box-consonants"
@@ -277,7 +277,7 @@ function Consonants() {
             </div>
           </Col>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={4} lg={2} xl={2}>
             <div
               className="click-box click-box-consonants"
@@ -303,7 +303,7 @@ function Consonants() {
             </div>
           </Col>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-center">
           <Col xs={12} sm={6} md={4} lg={2} xl={2}>
             <div
               className="click-box click-box-consonants"
