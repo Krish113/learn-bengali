@@ -116,22 +116,26 @@
   width: 72%;
   padding: 0.2rem 0.5rem;
   border-color: #eb1185;
+  background-color: white;
   color: #eb1185;
 }
 
 .dropdown-toggle:hover {
   border-color: #eb1185;
+  color: white;
   background-color: #eb1185;
 }
 
 .dropdown-toggle:active {
   border-color: #eb1185;
-  background-color: #eb1185;
+  background-color: white;
+  color: #eb1185;
 }
 
 .dropdown-toggle:focus {
   border-color: #eb1185;
-  background-color: #eb1185;
+  background-color: white;
+  color: #eb1185;
 }
 
 @media only screen and (max-width: 500px) {
