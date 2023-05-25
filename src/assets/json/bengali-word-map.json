@@ -411,6 +411,272 @@
       "sound": "https://flashcardo.com/audio/17/c_645.mp3",
       "category": "Body",
       "wordType": "aa-kar"
+    },
+    {
+      "text": "শূকর",
+      "image": "https://cdn.pixabay.com/photo/2018/10/12/10/30/piglet-3741877_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_198.mp3",
+      "category": "Animal",
+      "wordType": "oo-kar"
+    },
+    {
+      "text": "গরু",
+      "image": "https://cdn.pixabay.com/photo/2016/11/19/12/50/cow-1839118_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_86.mp3",
+      "category": "Animal",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "ঘোড়া",
+      "image": "https://cdn.pixabay.com/photo/2017/04/02/19/57/horse-2196755_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_85.mp3",
+      "category": "Animal",
+      "wordType": "o-kar"
+    },
+    {
+      "text": "কুকুর",
+      "image": "https://cdn.pixabay.com/photo/2016/02/19/15/46/labrador-retriever-1210559_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_79.mp3",
+      "category": "Animal",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "ভেড়া",
+      "image": "https://cdn.pixabay.com/photo/2017/01/16/19/54/ireland-1985088_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_33.mp3",
+      "category": "Animal",
+      "wordType": "e-kar"
+    },
+    {
+      "text": "বানর",
+      "image": "https://cdn.pixabay.com/photo/2019/03/05/12/26/monkey-4036088_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_28.mp3",
+      "category": "Animal",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "বিড়াল",
+      "image": "https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_21.mp3",
+      "category": "Animal",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "ভালুক",
+      "image": "https://cdn.pixabay.com/photo/2014/08/20/17/21/bear-422682_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_3.mp3",
+      "category": "Animal",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "মুরগি",
+      "image": "https://cdn.pixabay.com/photo/2016/04/07/21/59/chicken-1314888_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_891.mp3",
+      "category": "Animal",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "হাঁস",
+      "image": "https://cdn.pixabay.com/photo/2013/04/22/20/02/ruddy-shelduck-106544_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_41.mp3",
+      "category": "Animal",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "মৌমাছি",
+      "image": "https://cdn.pixabay.com/photo/2022/08/26/22/01/bee-7413333_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_52.mp3",
+      "category": "Animal",
+      "wordType": "ou-kar"
+    },
+    {
+      "text": "মাকড়সা",
+      "image": "https://cdn.pixabay.com/photo/2016/07/24/23/49/spider-1539583_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_116.mp3",
+      "category": "Animal",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "সাপ",
+      "image": "https://cdn.pixabay.com/photo/2014/10/25/00/17/snake-501986_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_75.mp3",
+      "category": "Animal",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "বাঘ",
+      "image": "https://cdn.pixabay.com/photo/2014/10/23/18/56/tiger-500118_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_92.mp3",
+      "category": "Animal",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "ইঁদুর",
+      "image": "https://cdn.pixabay.com/photo/2016/03/05/18/54/animal-1238228_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_192.mp3",
+      "category": "Animal",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "খরগোশ",
+      "image": "https://cdn.pixabay.com/photo/2019/04/18/19/41/animal-4137865_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_89.mp3",
+      "category": "Animal",
+      "wordType": "o-kar"
+    },
+    {
+      "text": "সিংহ",
+      "image": "https://cdn.pixabay.com/photo/2018/04/13/21/24/lion-3317670_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_25.mp3",
+      "category": "Animal",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "গাধা",
+      "image": "https://cdn.pixabay.com/photo/2017/01/12/17/57/animals-1975258_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_2.mp3",
+      "category": "Animal",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "হাতি",
+      "image": "https://cdn.pixabay.com/photo/2013/05/17/07/12/elephant-111695_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_9.mp3",
+      "category": "Animal",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "পোকা",
+      "image": "https://cdn.pixabay.com/photo/2021/06/07/22/51/weevil-6319220_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_103.mp3",
+      "category": "Animal",
+      "wordType": "o-kar"
+    },
+    {
+      "text": "মশা",
+      "image": "https://cdn.pixabay.com/photo/2016/07/28/19/29/mosquitoe-1548975_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_58.mp3",
+      "category": "Animal",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "মাছি",
+      "image": "https://cdn.pixabay.com/photo/2018/08/06/19/11/fly-3588178_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_53.mp3",
+      "category": "Animal",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "তিমি",
+      "image": "https://cdn.pixabay.com/photo/2016/04/02/12/57/wal-1302757_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_111.mp3",
+      "category": "Animal",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "হাঙর",
+      "image": "https://cdn.pixabay.com/photo/2018/03/04/09/41/shark-3197585_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_67.mp3",
+      "category": "Animal",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "ডলফিন",
+      "image": "https://cdn.pixabay.com/photo/2015/08/25/04/35/dolphin-906176_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_60.mp3",
+      "category": "Animal",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "শামুক",
+      "image": "https://cdn.pixabay.com/photo/2023/05/08/15/14/snail-7978955_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_115.mp3",
+      "category": "Animal",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "নেকড়ে",
+      "image": "https://cdn.pixabay.com/photo/2015/02/13/11/57/wolf-635063_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_39.mp3",
+      "category": "Animal",
+      "wordType": "e-kar"
+    },
+    {
+      "text": "জিরাফ",
+      "image": "https://cdn.pixabay.com/photo/2021/05/21/12/35/giraffe-6271050_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_16.mp3",
+      "category": "Animal",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "শিয়াল",
+      "image": "https://cdn.pixabay.com/photo/2015/04/10/01/41/fox-715588_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_13.mp3",
+      "category": "Animal",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "বাদুড়",
+      "image": "https://cdn.pixabay.com/photo/2015/12/11/16/11/animals-1088371_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_12.mp3",
+      "category": "Animal",
+      "wordType": "u-kar"
+    },
+    {
+      "text": "রাজহাঁস",
+      "image": "https://cdn.pixabay.com/photo/2017/02/28/23/00/swan-2107052_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_99.mp3",
+      "category": "Animal",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "পেঁচা",
+      "image": "https://cdn.pixabay.com/photo/2017/11/30/11/57/barn-owl-2988291_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_96.mp3",
+      "category": "Animal",
+      "wordType": "e-kar"
+    },
+    {
+      "text": "টিয়া",
+      "image": "https://cdn.pixabay.com/photo/2023/05/11/14/51/parakeet-7986601_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_46.mp3",
+      "category": "Animal",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "শুঁয়াপোকা",
+      "image": "https://cdn.pixabay.com/photo/2022/10/25/21/54/caterpillar-7546984_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_59.mp3",
+      "category": "Animal",
+      "wordType": "o-kar"
+    },
+    {
+      "text": "ফড়িং",
+      "image": "https://cdn.pixabay.com/photo/2014/05/19/18/52/dragonfly-348433_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_56.mp3",
+      "category": "Animal",
+      "wordType": "i-kar"
+    },
+    {
+      "text": "কাঁকড়া",
+      "image": "https://cdn.pixabay.com/photo/2023/03/21/10/30/crab-7866915_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_62.mp3",
+      "category": "Animal",
+      "wordType": "aa-kar"
+    },
+    {
+      "text": "ডাইনোসর",
+      "image": "https://cdn.pixabay.com/photo/2016/04/05/23/00/dinosaur-1310676_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_78.mp3",
+      "category": "Animal",
+      "wordType": "o-kar"
+    },
+    {
+      "text": "কুমির",
+      "image": "https://cdn.pixabay.com/photo/2014/01/14/18/31/nile-crocodile-245013_640.jpg",
+      "sound": "https://flashcardo.com/audio/17/c_72.mp3",
+      "category": "Animal",
+      "wordType": "i-kar"
     }
   ]
 }
